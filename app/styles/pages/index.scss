@@ -1,0 +1,158 @@
+section.carousel {
+	background: url(../../images/carousel.png) center no-repeat;
+	box-shadow: inset 0 0 0 1000px rgba(27,57,114,.5);
+	padding: 150px 50px;
+	@include media-breakpoint-down(sm) {
+		padding: 0;
+	}
+	.carousel-cell {
+		padding: 0 80px;
+		text-align: center;
+		width: 100%;
+		@include media-breakpoint-down(sm) {
+			padding: 20px 50px;
+		}
+	}
+}
+section.covered {
+	background: url(../../images/control.png) center no-repeat;
+	box-shadow: inset 0 0 0 1000px rgba(27,57,114,.5);
+	padding: 150px 0;
+	// padding-left: 375px;
+	@include media-breakpoint-down(sm) {
+		padding: 80px 0;
+	}
+	.container {
+		text-align: center;
+	}
+}
+section.keep-track {
+	background: #16336A;
+	padding: 100px 0;
+	text-align: center;
+	@include media-breakpoint-down(sm) {
+		padding: 50px 0;
+	}
+	.container {
+		.staggered {
+			background: url(../../images/shifts-phone.svg) center no-repeat;
+			height: 450px;
+			margin: 40px 0;
+			@include media-breakpoint-down(sm) {
+				height: 300px;
+				margin: 0;
+			}
+		}
+		.covered {
+			padding: 40px 80px;
+			margin: auto;
+			text-align: left;
+			.icon-timer {
+				color: white;
+				font-size: 50px;
+				margin-bottom: 10px;
+				opacity: 0.7;
+			}
+			@include media-breakpoint-up(md) {
+				margin-left: 30px;
+			}
+			@include media-breakpoint-down(md) {
+				margin-left: 0;
+				padding: 40px 40px;
+			}
+			@include media-breakpoint-down(sm) {
+				padding: 40px 0;
+				padding-bottom: 0;
+				text-align: center;
+			}
+			.covered-img {
+				background: url(../../images/timer-phone@x2.png) center no-repeat;
+				background-size: 300px;
+				height: 275px;
+				margin-top: 20px;
+				@include media-breakpoint-up(lg) {
+					margin-right: 100px;
+				}
+			}	
+		}
+		.admin {
+			@include media-breakpoint-down(md) {
+				padding: 0px;
+			}
+			.admin-img {
+				background: url(../../images/profile-phone@x2.png) center no-repeat;
+				background-size: 300px;
+				height: 275px;
+			}
+			padding: 40px 80px;
+			text-align: left;
+			@include media-breakpoint-down(md) {
+				padding: 40px 40px;
+			}
+			.admin-content {
+				@include media-breakpoint-up(sm) {
+					margin-left: 30px;
+				}
+				@include media-breakpoint-down(sm) {
+					margin-top: 20px;
+				}
+				.icon-file-search {
+					color: white;
+					font-size: 50px;
+					margin-bottom: 10px;
+					opacity: 0.7;
+				}
+			}
+			@include media-breakpoint-up(md) {
+				margin: auto;
+			}
+			@include media-breakpoint-down(sm) {
+				padding: 40px 0;
+				text-align: center;
+			}	
+		}
+	}
+}
+section.fixed-fee {
+	background: url(../../images/fixed-fee-img-100pc@2x.png) center no-repeat;
+	box-shadow: inset 0 0 0 1000px rgba(17,45,96,.7);
+	padding: 100px 0;
+	text-align: center;
+	.icon-cash-pound {
+		color: white;
+		font-size: 50px;
+		margin-bottom: 10px;
+		opacity: 0.7;
+	}
+	p.easy {
+		color: orange;
+	}
+}
+section.contact {
+	background: #16336A;
+	padding: 100px 150px;
+	@include media-breakpoint-down(md) {
+		padding: 75px 20px;
+	}
+	.contact-img {
+		background: url(../../images/tp-phone1.svg) center no-repeat;
+		height: 350px;
+		@include media-breakpoint-down(sm) {
+			display: none;
+			// margin-top: 30px;
+		}
+	}
+}
+section.download {
+	background: url(../../images/download.png) center no-repeat;
+	padding: 125px 0;
+	// padding-left: 600px;
+	@include media-breakpoint-down(sm) {
+		padding: 80px 0;
+	}
+	// .container {
+	// 	display: flex;
+	// 	flex-direction: column;
+	// 	align-items: flex-end;
+	// }
+}

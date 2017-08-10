@@ -1,0 +1,15 @@
+button.wai-btn {
+	background: $orange;
+	border-radius: 100px;
+	color: white;
+	font-family: 'HalisR-Bold';
+	font-size: 13px;
+	font-weight: 800;
+	min-width: 200px;
+	padding: 13px 0;
+	text-transform: uppercase;
+	&.form-btn {
+		margin-top: 10px;
+		width: 100%;
+	}
+}

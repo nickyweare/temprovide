@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="3385 86 72 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b1cbfd;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #b1cbfd;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-width: 2.5px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_142" data-name="Group 142" transform="translate(3029 -647)">
+    <g id="Tick" transform="translate(300 706)">
+      <path id="Path_139" data-name="Path 139" class="cls-1" d="M9.138,25.732c-.146-.073-.219-.073-.292-.146L.219,16.96A1.02,1.02,0,0,1,0,16.3a.72.72,0,0,1,.219-.585A.83.83,0,0,1,.8,15.5a.83.83,0,0,1,.585.219l7.968,7.968L32.75.292A1.182,1.182,0,0,1,33.481,0a.665.665,0,0,1,.585.292.593.593,0,0,1,.292.585.72.72,0,0,1-.219.585L10.088,25.513a.554.554,0,0,1-.292.146c-.073,0-.219.073-.292.073Z" transform="translate(75 50)"/>
+    </g>
+    <g id="Ellipse_21" data-name="Ellipse 21" class="cls-2" transform="translate(356 733)">
+      <circle class="cls-3" cx="36" cy="36" r="36"/>
+      <circle class="cls-4" cx="36" cy="36" r="34.75"/>
+    </g>
+  </g>
+</svg>
