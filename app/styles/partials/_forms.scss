@@ -3,7 +3,7 @@ form.wai-form {
 		background: #112f63;
 		border: none;
 		border-radius: 50px;
-		color: lighten($white, 100%);
+		color: lighten($black, 80%);
 		outline: none;
 		padding: 6px 15px;
 		width: 100%;
@@ -11,7 +11,18 @@ form.wai-form {
 			margin-bottom: 20px;
 		}
 	}
+	span {
+		position: absolute;
+		right: 35px;
+		top: 13px;
+		font-size: 12px;
+		&.icon-chevron-down {
+			color: lighten($black, 80%);
+		}
+	}
 	input::placeholder {
-		color: lighten($white, 20%);
+		font-size: 12px;
+		color: lighten($black, 70%);
+		text-transform: uppercase;
 	}
 }
