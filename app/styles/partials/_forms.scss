@@ -3,10 +3,15 @@ form.wai-form {
 		background: #112f63;
 		border: none;
 		border-radius: 50px;
-		padding: 6px 10px;
+		color: lighten($white, 100%);
+		outline: none;
+		padding: 6px 15px;
 		width: 100%;
 		@include media-breakpoint-down(sm) {
 			margin-bottom: 20px;
 		}
+	}
+	input::placeholder {
+		color: lighten($white, 20%);
 	}
 }

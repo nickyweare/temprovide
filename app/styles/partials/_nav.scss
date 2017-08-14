@@ -1,9 +1,39 @@
 section.navbar {
-	nav {
-		background: transparent;
-		a {
-			color: white !important;
-			font-size: 14px;
+	padding: 0;
+	padding-bottom: 5px;
+	background: transparent;
+	.temprov {
+		@include media-breakpoint-down(md) {
+			background: $orange;
 		}
+		ul {
+			margin-top: 10px;
+			li {
+				margin-right: 20px;
+				a {
+				color: white !important;
+				font-size: 12px;
+				padding: 0.4rem 0 0.4rem 0 !important;
+				}
+				&:hover {
+					border-bottom: #5D90EF 2px solid;
+					margin-bottom: -2px;
+					@include media-breakpoint-down(md) {
+						border-bottom: none;
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+		button.navbar-toggler {
+			border: none;
+			font-size: 25px;
+			margin-top: 5px;
+			outline: none;
+			span.icon-menu {
+				color: white !important;
+			}
+		}
+		
 	}
 }
