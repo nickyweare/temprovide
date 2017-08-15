@@ -1,6 +1,6 @@
 form.wai-form {
 	input {
-		background: #112f63;
+		background: #0f2652;
 		border: none;
 		border-radius: 50px;
 		color: lighten($black, 80%);
@@ -15,14 +15,15 @@ form.wai-form {
 		position: absolute;
 		right: 35px;
 		top: 13px;
-		font-size: 12px;
+		font-size: 13px;
 		&.icon-chevron-down {
-			color: lighten($black, 80%);
+			color: #B1CBFD;
 		}
 	}
 	input::placeholder {
 		font-size: 12px;
-		color: lighten($black, 70%);
+		color: #B1CBFD;
+		content: transparent;
 		text-transform: uppercase;
 	}
 }

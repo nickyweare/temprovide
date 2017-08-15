@@ -38,22 +38,22 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">control<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#control">control<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">keep track</a>
+              <a class="nav-link" href="#keep-track">keep track</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">costs</a>
+              <a class="nav-link" href="#costs">costs</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">testimonials</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">apply</a>
+              <a class="nav-link" href="#apply">apply</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">find shifts</a>
+              <a class="nav-link find" href="#find-shifts">find shifts</a>
             </li>
           </ul>
         </div>
@@ -65,7 +65,10 @@
         <div class="col-md-6" style="margin: auto">
           <h2>instant blow out cover</h2>
           <p>Temp provide gives you access to our network of licensed, vetted and reliable staff, so that you've got the backup you need when it counts.</p>
-          <button type="button" class="btn wai-btn">get covered</button>
+          <div class="btn-wrapper">
+            <!-- <img class="icon" src="images/fingerprint-btn.svg" height="65px"></img> -->
+            <button type="button" class="btn wai-btn">get covered</button>
+          </div>
         </div>
         <div class="col-md-6">
           <div class="phone-group"></div>
@@ -96,7 +99,7 @@
     </section>
     <!-- Carousel section -->
     <section class="carousel">
-      <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true}'>
+      <div class="main-carousel" data-flickity='{ "cellAlign": "left"}'>
         <div class="carousel-cell">
           <img src="">
           <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -120,8 +123,8 @@
         </div>
       </div>
     </section>
-    <!-- Get covered -->
-    <section class="covered">
+    <!-- Control -->
+    <section class="control" id="control">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -136,10 +139,10 @@
       </div>
     </section>
     <!-- Keep track -->
-    <section class="keep-track">
+    <section class="keep-track" id="keep-track">
       <div class="container">
         <h2>keep track in the app</h2>
-        <p>Everything you need to knwo about who's covering 
+        <p>Everything you need to know about who's covering 
         <br>your shift, at your fingertips.</p>
         <div class="staggered"></div>
         <p>See when they're on route, when they've checked in and when they've finished their shift.</p>
@@ -171,8 +174,8 @@
         </div>
       </div>
     </section>
-    <!-- Fixed fee -->
-    <section class="fixed-fee">
+    <!-- Costs -->
+    <section class="costs" id="costs">
       <div class="container">
         <span class="icon-cash-pound"></span>
         <h2>fixed fee</h2>
@@ -180,8 +183,8 @@
         <p class="easy">Easy.</p>
       </div>
     </section>
-    <!-- Contact -->
-    <section class="contact">
+    <!-- Apply -->
+    <section class="apply" id="apply">
       <div class="container">
         <div class="row">
           <div class="col-md-8">
@@ -222,7 +225,7 @@
       </div>
     </section>
     <!-- Download -->
-    <section class="download">
+    <section class="find-shifts" id="find-shifts">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -230,6 +233,14 @@
           <div class="col-md-6">
             <h2>looking for work? find shifts now and get paid today.</h2>
             <p>Temp Provide allows you to search for shifts near you, which you can book instantly. Get paid the same day as you work, and spend it on the things you love.</p>
+            <ul class="download">
+              <li>
+                <a class="logo" href="#"><img src="images/google-play-badge.svg" height="43px"/></a>
+              </li>
+              <li>
+                <a class="logo" href="#"><img src="images/App-store.svg" height="30px"/></a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -248,13 +259,13 @@
         <div class="row">
           <div class="col-md-6">
             <p class="address">412 Berwick Street, London, W1A 4EJ</p>
-            <p class="contact">hello@tempprovide.com T 020 4378 7654</p>
+            <p class="contact bold">hello@tempprovide.com T 020 4378 7654</p>
           </div>
           <div class="col-md-6">
             <div class="logos">
               <ul class="inline">
                 <li>
-                  <a class="logo" href="#"><img src="images/G4S-babyblue@2x.png" width="50px"/></a>
+                  <a class="logo" href="#"><img src="images/G4S-babyblue@2x.png" height="40px"/></a>
                 </li>
                 <li>
                   <a class="logo" href="#"><img src="images/regency-security-services_owl@2x.png" width="50px"/></a>

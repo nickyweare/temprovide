@@ -3,8 +3,13 @@ section.hero {
     background-size: cover;
     margin-top: -80px;
 	padding: 200px 80px;
+	padding-top: 250px;
 	position: relative;
 	height: 100%;
+	@include media-breakpoint-up(xl) {
+		padding-left: 200px;
+		padding-right: 200px;
+	}
 	@include media-breakpoint-down(sm) {
 		padding: 175px 20px;
 		padding-bottom: 50px;
@@ -18,7 +23,7 @@ section.hero {
         bottom: 0;
         left: 0;
         background-image: linear-gradient(to top, $blue, transparent);
-        opacity: 0.8;
+        opacity: 1;
     }
 	.phone-group {
 		background: url(../../images/hero-phones.svg) center no-repeat;
@@ -28,15 +33,14 @@ section.hero {
 		}
 	}
 	.arrow {
-		padding: 40px 0;
+		padding: 60px 0;
 		text-align: center;
 		@include media-breakpoint-down(sm) {
 			padding: 10px 0;
 		}
 		.icon-arrow-down {
-			color: white;
-			font-size: 20px;
-			opacity: 0.7;
+			color: #B1CBFD;
+			font-size: 25px;
 		}
 	}
 	.container {
@@ -52,10 +56,9 @@ section.hero {
 			}
 		}
 		.icon-checkmark-circle {
-			color: white;
+			color: #B1CBFD;
 			font-size: 50px;
 			margin-bottom: 20px;
-			opacity: 0.7;
 		}
 		h2 {
 			margin-top: 10px;

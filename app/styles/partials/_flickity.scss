@@ -44,7 +44,7 @@ $color_mine_shaft_approx: #333;
 	border: none;
 	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 	border-radius: 50%;
-	background: $white;
+	background: transparent;
 	background: $white_75;
 	cursor: pointer;
 	//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
